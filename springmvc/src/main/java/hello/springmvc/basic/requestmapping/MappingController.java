@@ -38,7 +38,7 @@ public class MappingController {
     /**
      * PathVariable 사용
      * 변수명이 같으면 생략 가능
-     * @PathVariable("userId") String userId -> @PathVariable userId
+     * @PathVariable("userId") String userI d -> @PathVariable userId
      */
     @GetMapping("/mapping/{userId}") // 경로변
     public String mappingPath(@PathVariable("userId") String data) {
